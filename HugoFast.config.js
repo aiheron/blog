@@ -1,1 +1,1 @@
-{"domain":"https://immmmm.com","name":""}
+{"domain":"https://blog.aiheron.com","name":""}
