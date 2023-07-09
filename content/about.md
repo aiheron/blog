@@ -13,15 +13,8 @@ layout: 'posts'
 
 ### 维护项目
 
-- 教学工具导航: <https://edui123.com/>
+- AI网站导航 <https://www.aiheron.com/>
 
 ### 我的朋友
 
 {{< friends >}}
-
-### 欢迎打赏
-
-<figure>
-    <img src="https://pic.edui.fun/wx.jpg" alt="微信打赏" />
-    <figcaption>微信打赏</figcaption>
-</figure>

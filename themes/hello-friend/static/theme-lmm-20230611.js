@@ -110,10 +110,10 @@ function bookShow(fetch_href, fetch_item) {
   db_div.innerHTML = db_html
 }
 function umiTongji(){
-  var umiId = "c27bd84b-02a3-4c3f-a168-0d7fadec9c74"
-  var umiToken = "o7UpYT1CFrJwL0lmIOY2IzKz23jJdQ3S/gVJJwlK9a+rNtJjXB/7sfEEKXfODAGTXe+d0/wE0tjib+iOZ1eo864qvspZBnt0bzO1edvhnHI6pZ7STLG/8OqJFoJEez0zUvme0XdkYHS+arEptgK0WXijkB2xmfEtD/2lfR5aLwY4QOjmCN+ADzt9TVdNV+bKfirH2s8fKvzcQEKxUCqXxDNMHPzRrHwyEGqv0GZ8CwQqTqL5hdfGsApq9p5XX19X4eaurjFFeBBAjPXu51stmCc82iBkqNhB6y7qT6xHdONqmoaz85gKVPgt/KAaNNIrx+ydW87DbmRi3XTJqj8J4bkgDcLqiV6Mc9UoWZCwf+UUvOtkY6vWwBCRV4Zd4YuFNiUNfw6izIg1Psj+Jjyej4w2oKABSVdrEWLFAL6bhkMzSQLlsl2imzfPMdw="
+  var umiId = "406f53b1-0151-4f66-b99d-315cb803e3d3"
+  var umiToken = "dXT04sGR7TawW8vZstw8LK8ettoLmaE5Q5eumfoDFUWlcOVyPfbDpCbORRJQaOx/oheNLVFOuLYby/r+OhXBeIS8DAy8QiKgRirAmX3KyNcjHR3o4Fd9yRes854volMQ8cmJ+aND4DfC8n0GNCv8UxwS+4WIMxmb1G7xeivzJu0Wyl21stxLJPR7UbWsag3IrbiRct8ybFvAnffbVlDFo6Z9UYcLZMKRdRxBT9l32QPeC6AsjQbMDakm7jxymZyI/AjzU5LdI6hIvfFaNH+cgyASpA7yY4h5UiBm+WJsVeF2EC8NDlIADSmJMRgmesDwEhU1bksMr+z9cEojQErdp2As2bAwCKyCDQ=="
   var umiTime = Date.parse(new Date()); //获取当前时间戳
-  var umiUrl = "https://u.edui.fun/api/websites/"+umiId+"/stats?start_at=0000000000&end_at="+umiTime;
+  var umiUrl = "http://umami.xgy.me/api/websites/"+umiId+"/stats?start_at=0000000000&end_at="+umiTime;
   fetch(umiUrl,{
     method: 'GET',
     mode: 'cors',
