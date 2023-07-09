@@ -19,8 +19,12 @@ const urls = [
   {home:"https://seersu.me/",host:"https://bb.seersu.top/",creatorId:"101",comment:'1',twiEnv:'https://twikoo.seersu.me/',imgsrc:"https://cravatar.cn/avatar/84b712148a63b44dd97ede997bc3efa5"},
   {home:"https://www.xzgljiang.com/",host:"https://memos.xzgljiang.com/",creatorId:"1",comment:'1',twiEnv:'https://twikoo.une.xzgljiang.com/',imgsrc:"https://cravatar.cn/avatar/a892fd3321ab65a1c5d9c7a54a04c881"},
   {home:"https://cooolr.cn/",host:"https://m.cooolr.cn/",creatorId:"1",comment:'1',twiEnv:'https://tk.cooolr.cn/',imgsrc:"https://cravatar.cn/avatar/7422f8bebdb99f6594e029f603ccb926"},
-  {home:"https://www.boyhu.cn/",host:"https://qzone.boyhu.cn/",creatorId:"101",comment:'1',twiEnv:'https://tk.boyhu.cn',imgsrc:"https://cravatar.cn/avatar/55be217893c75baf8571837197de4a3e"},
+  {home:"https://www.boyhu.cn/",host:"https://qzone.boyhu.cn/",creatorId:"101",comment:'1',twiEnv:'https://tk.boyhu.cn/',imgsrc:"https://cravatar.cn/avatar/55be217893c75baf8571837197de4a3e"},
   {home:"https://kouseki.cn/",host:"https://memos.kouseki.cn/",creatorId:"1",comment:'1',twiEnv:'https://api-twi.kouseki.cn/',imgsrc:"https://cravatar.cn/avatar/23978e8e57e20163e8cb67bbf9dbe907"},
+  {home:"https://lms.im/",host:"https://b.lms.im/",creatorId:"1",comment:'1',twiEnv:'https://b.lms.im/tk/',imgsrc:"https://cravatar.cn/avatar/d9cc49ea0301640d7a19b6a1e77012dd"},
+  {home:"https://edinik.com/",host:"https://memos.edinik.com/",creatorId:"1",comment:'1',twiEnv:'https://tk.edinik.com/',imgsrc:"https://cravatar.cn/avatar/e1cdf4f763e3c7e01271a44b990c712f"},
+  {home:"https://memos.qiangtu.com/",host:"https://memos.qiangtu.com/",creatorId:"1",comment:'1',twiEnv:'https://twikoo.qiangtu.com/',imgsrc:"https://memos2504.oss-cn-hangzhou.aliyuncs.com/memos2504/assets/2023/06/06/1686021093_favicon.ico/1ef33f96-5296-4d5e-940c-04c88775d008.ico"},
+  {home:"https://life97.top/",host:"https://memos.life97.top/",creatorId:"101",comment:'1',twiEnv:'https://say.life97.top/',imgsrc:"https://cravatar.cn/avatar/d41d8cd98f00b204e9800998ecf8427e"},
   {home:"https://eallion.com/",host:"https://memos.eallion.com/",creatorId:"101",comment:'1',artEnv:'https://api.eallion.com/artalk/',artSite:'memos',imgsrc:"https://cravatar.cn/avatar/171e4c30959e8c077a6c58b958624b31"},
   {home:"https://www.skyue.com/",host:"https://memos.skyue.com/",creatorId:"1",comment:'1',artEnv: 'https://artalk.skyue.com',artSite: '拾月微博',imgsrc:"https://cravatar.cn/avatar/c3fb4bb4d5101284ddd672fb722cdd7d"},
   {home:"https://xrat.net/",host:"https://memos.xrat.net/",creatorId:"2",comment:'1',artEnv:'https://vlabs.synology.me:96',artSite:'memos.xrat.net',imgsrc:"https://cravatar.cn/avatar/0ab677e14d21d941f64d98192d6168e7"},
@@ -28,12 +32,12 @@ const urls = [
   {home:"https://laozhang.org/",host:"https://memos.laozhang.org/",creatorId:"1",comment:'1',artEnv: 'https://artalk.laozhang.org/',artSite: 'memos',imgsrc:"https://cravatar.cn/avatar/679666f7bd1af3e55f0e51dd70ed161c"},
   {home:"https://memos.ee/",host:"https://memos.ee/",creatorId:"1",comment:'1',artEnv: 'https://artalk.loliko.cn',artSite: 'memo',imgsrc:"https://thirdqq.qlogo.cn/g?b=sdk&k=ibRKdTab3VxmHk2EROqHGvA&kti=ZIgAdwAAAAE&s=40&t=1557855586"},
   {home:"https://koobai.com/",host:"https://memos.koobai.com/",creatorId:"1",comment:'1',artEnv:'https://c.koobai.com',artSite:'空白唠叨',imgsrc:"https://cravatar.cn/avatar/3b3d336a7d389b7ae8531cbe177ae9b7"},
+  {home:"https://veryjack.com/",host:"https://say.veryjack.com/",creatorId:"1",comment:'1',artEnv: 'https://artalk.veryjack.com',artSite: 'Jack\'s Space',imgsrc:"https://cravatar.cn/avatar/7a41a0e8e1df8e964fa1268193b03508"},
   {home:"https://linsnow.cn/",host:"https://bb.linsnow.cn/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/9f5d9e5efe3bea0139b12a0fe27100fe"},
   {home:"https://elizen.me/",host:"https://bb.elizen.me/",creatorId:"101",comment:'',imgsrc:"https://cravatar.cn/avatar/f65df4d87240feb1cb247857a621a48f"},
   {home:"https://www.cyuanx.icu/",host:"https://mome.cyuanx.icu/",creatorId:"1",comment:'',imgsrc:"https://www.cyuanx.icu/wp-content/uploads/2023/03/cropped-07b4b32029661fd9ce1200ac9b937f1.jpg"},
   {home:"https://xsinger.me/",host:"https://isay.live/",creatorId:"101",comment:'',imgsrc:"https://cravatar.cn/avatar/f0e33f4d097fe2e9fd74b9b129e7a655"},
   {home:"https://noionion.top/",host:"https://memos.noionion.cn/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/d240a727ea154be465796ef2644aac16"},
-  {home:"https://life97.top/",host:"https://memos.life97.top/",creatorId:"101",comment:'',imgsrc:"https://cravatar.cn/avatar/d41d8cd98f00b204e9800998ecf8427e"},
   {home:"https://1900.live/",host:"https://memos.1900.live/",creatorId:"101",comment:'',imgsrc:"https://cravatar.cn/avatar/cc38267b10cc25dfc62209f8ca34589e"},
   {home:"https://usj.cc/",host:"https://memos.usj.cc/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/1cce0a22c2c7648eab76ec876c6a54d9"},
   {home:"https://www.wananaiko.com/",host:"https://memo.wananaiko.com/",creatorId:"1",comment:'',imgsrc:"https://thirdqq.qlogo.cn/g?b=sdk&k=7AFd0gic7wVsNg2ToQrQU2w&s=140&t=1583250600"},
@@ -42,9 +46,7 @@ const urls = [
   {home:"https://vlieo.com/",host:"https://memos.vlieo.com/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/d36125dcbca7fde4200fd76f6aa1fbe9"},
   {home:"https://www.4op.top/",host:"https://flomo.010316.xyz/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/81f9378195d84e8ff73aad9ded2b9808"},
   {home:"https://wiki-power.com/",host:"https://memos.wiki-power.com/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/44218020ee434de43516c19f05c71593"},
-  {home:"https://lms.im/",host:"https://b.lms.im/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/d9cc49ea0301640d7a19b6a1e77012dd"},
   {home:"https://blog.leonus.cn/",host:"https://m.leonus.cn/",creatorId:"1",comment:'',imgsrc:"https://thirdqq.qlogo.cn/g?b=sdk&k=cZKBhtxe2iaxjSfbVYiaFgoQ&kti=Y9x6QwAAAAI&s=140&t=1672836908"},
-  {home:"https://veryjack.com/",host:"https://say.veryjack.com/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/7a41a0e8e1df8e964fa1268193b03508"},
   {home:"https://eirms.com/",host:"https://memo.eirms.com/",creatorId:"1",comment:'',imgsrc:"https://thirdqq.qlogo.cn/g?b=sdk&k=6bLfAytyUI7daRuxat0XxA&kti=ZDt5CwAAAAA&s=140&t=1646284093"},
   {home:"https://cmsblog.cn/",host:"https://memos.cmsblog.cn/",creatorId:"1",comment:'',imgsrc:"https://thirdqq.qlogo.cn/g?b=sdk&k=fcgI8ibPhO3zz3IvgL4bl7Q&kti=ZDuqEgAAAAI&s=140&t=1556624886"},
   {home:"https://forevers.love/",host:"https://www.forevers.love/",creatorId:"1",comment:'',imgsrc:"https://thirdqq.qlogo.cn/g?b=sdk&k=ibHiaOLTgWctyNtR2EdVOvHA&kti=ZDvk_QAAAAE&s=140&t=1673516322"},
@@ -59,9 +61,7 @@ const urls = [
   {home:"https://mybelife.com/",host:"https://mybelife.com/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/7067b66529765b71181c62e59ac6969b"},
   {home:"https://idh.ink/",host:"https://idh.ink/",creatorId:"1",comment:'',imgsrc:"https://thirdqq.qlogo.cn/g?b=sdk&k=NAuictuJAIjdPiaHlY6xbDWA&kti=ZHUWoAAAAAA&s=140&t=1683481629"},
   {home:"https://leonfong.me/",host:"https://memo.leonfong.me/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/b147bfa4888f1233882ba5b39ef3bffc"},
-  {home:"https://memos.qiangtu.com/",host:"https://memos.qiangtu.com/",creatorId:"1",comment:'',imgsrc:"https://memos2504.oss-cn-hangzhou.aliyuncs.com/memos2504/assets/2023/06/06/1686021093_favicon.ico/1ef33f96-5296-4d5e-940c-04c88775d008.ico"},
-  {home:"https://darmau.design/",host:"https://memo.darmau.design/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/729357a0d48d17802332d52479d2399f"},
-  {home:"https://edinik.com/",host:"https://memos.edinik.com/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/e1cdf4f763e3c7e01271a44b990c712f"}
+  {home:"https://darmau.design/",host:"https://memo.darmau.design/",creatorId:"1",comment:'',imgsrc:"https://cravatar.cn/avatar/729357a0d48d17802332d52479d2399f"}
 ]
 
 
@@ -164,6 +164,26 @@ function urlsNow(e){
       getNextList()
     });
   }
+}
+// 获取评论数量
+function insertTwikoo(e) {
+  var twienv = e.getAttribute("data-twienv")
+  var twipath = e.getAttribute("data-path")
+  var memoId = e.getAttribute("data-id")
+  twikoo.getCommentsCount({
+    envId: twienv, // 环境 ID
+    urls: [twipath],
+    includeReply: true
+  }).then(function (res) {
+    var tkcountID = '#tkcount-'+memoId//tkcount-1635
+    var tkcountDom = document.querySelectorAll(tkcountID)
+    if(tkcountDom){
+      tkcountDom.forEach(e => e.remove());
+    }
+    e.insertAdjacentHTML('beforeend', '<span class="tkcount" id="tkcount-'+memoId+'">'+res[0].count+'</span>');
+  }).catch(function (err) {
+    console.error(err);
+  });
 }
 //预加载下一页数据
 function getNextList(){
@@ -275,21 +295,30 @@ function uniqueFunc(arr){
 
 function updateHTMl(data){
   var result="",resultAll="";
-  const TAG_REG = /#([^\s#]+?) /g
-  ,IMG_REG = /\!\[(.*?)\]\((.*?)\)/g
-  ,LINK_REG = /\[(.*?)\]\((.*?)\)/g
-  , BILIBILI_REG = /<a.*?href="https:\/\/www\.bilibili\.com\/video\/((av[\d]{1,10})|(BV([\w]{10})))\/?".*?>.*<\/a>/g
-  , NETEASE_MUSIC_REG = /<a.*?href="https:\/\/music\.163\.com\/.*id=([0-9]+)".*?>.*<\/a>/g
-  , QQMUSIC_REG = /<a.*?href="https\:\/\/y\.qq\.com\/.*(\/[0-9a-zA-Z]+)(\.html)?".*?>.*?<\/a>/g
-  , QQVIDEO_REG = /<a.*?href="https:\/\/v\.qq\.com\/.*\/([a-z|A-Z|0-9]+)\.html".*?>.*<\/a>/g
-  , YOUKU_REG = /<a.*?href="https:\/\/v\.youku\.com\/.*\/id_([a-z|A-Z|0-9|==]+)\.html".*?>.*<\/a>/g
-  , YOUTUBE_REG = /<a.*?href="https:\/\/www\.youtube\.com\/watch\?v\=([a-z|A-Z|0-9]{11})\".*?>.*<\/a>/g;
+  const TAG_REG = /#([^\s#]+)/;
+  const IMG_REG = /\!\[(.*?)\]\((.*?)\)/g;
+  BILIBILI_REG = /<a.*?href="https:\/\/www\.bilibili\.com\/video\/((av[\d]{1,10})|(BV([\w]{10})))\/?".*?>.*<\/a>/g;
+  NETEASE_MUSIC_REG = /<a.*?href="https:\/\/music\.163\.com\/.*id=([0-9]+)".*?>.*<\/a>/g;
+  QQMUSIC_REG = /<a.*?href="https\:\/\/y\.qq\.com\/.*(\/[0-9a-zA-Z]+)(\.html)?".*?>.*?<\/a>/g;
+  QQVIDEO_REG = /<a.*?href="https:\/\/v\.qq\.com\/.*\/([a-z|A-Z|0-9]+)\.html".*?>.*<\/a>/g;
+  YOUKU_REG = /<a.*?href="https:\/\/v\.youku\.com\/.*\/id_([a-z|A-Z|0-9|==]+)\.html".*?>.*<\/a>/g;
+  YOUTUBE_REG = /<a.*?href="https:\/\/www\.youtube\.com\/watch\?v\=([a-z|A-Z|0-9]{11})\".*?>.*<\/a>/g;
+
   marked.setOptions({
     breaks: true,
     smartypants: false,
     langPrefix: 'language-'
   });
-
+  // Marked Renderer Open links in New Tab
+  const renderer = new marked.Renderer();
+  const linkRenderer = renderer.link;
+  renderer.link = (href, title, text) => {
+      const localLink = href.startsWith(`${location.protocol}//${location.hostname}`);
+      const html = linkRenderer.call(renderer, href, title, text);
+      return localLink ? html : html.replace(/^<a /, `<a target="_blank" rel="noreferrer noopener nofollow" `);
+  };
+  marked.use({ renderer });
+  
   for(var i=0;i < data.length;i++){
       var memos = data[i].url
       var memoId = data[i].memoId
@@ -300,16 +329,38 @@ function updateHTMl(data){
       var artSite = data[i].artSite
       var bbContREG = data[i].content
         .replace(TAG_REG, "<span class='tag-span'>#$1</span> ")
-        .replace(LINK_REG, "<a href='$2' target='_blank'><span> $1 </span></a>")
+        .replace(IMG_REG, '')
+        //.replace(LINK_REG, "<a href='$2' target='_blank'><span> $1 </span></a>")
         
       bbContREG = marked.parse(bbContREG)
-        .replace(BILIBILI_REG, "<div class='video-wrapper'><iframe src='//player.bilibili.com/player.html?bvid=$1&as_wide=1&high_quality=1&danmaku=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'></iframe></div>")
+        .replace(BILIBILI_REG, "<div class='video-wrapper'><iframe src='//www.bilibili.com/blackboard/html5mobileplayer.html?bvid=$1&as_wide=1&high_quality=1&danmaku=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true'></iframe></div>")
         .replace(NETEASE_MUSIC_REG, "<meting-js auto='https://music.163.com/#/song?id=$1'></meting-js>")
         .replace(QQMUSIC_REG, "<meting-js auto='https://y.qq.com/n/yqq/song$1.html'></meting-js>")
         .replace(QQVIDEO_REG, "<div class='video-wrapper'><iframe src='//v.qq.com/iframe/player.html?vid=$1' allowFullScreen='true' frameborder='no'></iframe></div>")
         .replace(YOUKU_REG, "<div class='video-wrapper'><iframe src='https://player.youku.com/embed/$1' frameborder=0 'allowfullscreen'></iframe></div>")
         .replace(YOUTUBE_REG, "<div class='video-wrapper'><iframe src='https://www.youtube.com/embed/$1' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen title='YouTube Video'></iframe></div>")
-      
+
+      //解析 content 内 md 格式图片
+      var IMG_ARR = data[i].content.match(IMG_REG) || '',IMG_ARR_Grid='';
+      if(IMG_ARR){
+        var IMG_ARR_Length = IMG_ARR.length,IMG_ARR_Url = '';
+        if(IMG_ARR_Length !== 1){var IMG_ARR_Grid = " grid grid-"+IMG_ARR_Length}
+        IMG_ARR.forEach(item => {
+            let imgSrc = item.replace(/!\[.*?\]\((.*?)\)/g,'$1')
+            IMG_ARR_Url += '<figure class="gallery-thumbnail"><img class="img thumbnail-image" loading="lazy" decoding="async" src="'+imgSrc+'"/></figure>'
+        });
+        bbContREG += '<div class="resimg'+IMG_ARR_Grid+'">'+IMG_ARR_Url+'</div>';
+      }
+
+      //标签
+      var tagArr = data[i].content.match(TAG_REG);
+      var bbContTag = '';
+      if (tagArr) {
+          bbContTag = String(tagArr[0]).replace(/[#]/g, '');
+      } else {
+          bbContTag = '动态';
+      };
+
       //解析内置资源文件
       if(data[i].resourceList && data[i].resourceList.length > 0){
         var resourceList = data[i].resourceList;
@@ -334,26 +385,33 @@ function updateHTMl(data){
         }
         if(imgUrl){
           var resImgGrid = ""
-          if(resImgLength !== 1){var resImgGrid = "grid grid-"+resImgLength}
-          bbContREG += '<div class="resimg '+resImgGrid+'">'+imgUrl+'</div>'
+          if(resImgLength !== 1){var resImgGrid = " grid grid-"+resImgLength}
+          bbContREG += '<div class="resimg'+resImgGrid+'">'+imgUrl+'</div>'
         }
         if(resUrl){
           bbContREG += '<div class="resour">'+resUrl+'</div>'
         }
       }
-      result += '<li class=""><div class="bbs-avatar"><a href="'+data[i].home+'" target="_blank" rel="noopener noreferrer"><img src="'+data[i].imgsrc+'" alt=""></a><a href="'+memoUrl+'" target="_blank" rel="noopener noreferrer" class="bbs-creator">'+data[i].creator+'</a><span class="bbs-dot">·</span><span class="bbs-date">'+new Date(data[i].updatedTs * 1000).toLocaleString()+'</span>'
+      var EnvNow = ''
+      if(twiEnv && twiEnv != "undefined"){
+        EnvNow = twiEnv.replace(/https\:\/\/.*\.(.*)\..*/,'$1')
+      }
+      if(artEnv && artEnv != "undefined"){
+        EnvNow = artEnv.replace(/https\:\/\/.*\.(.*)\..*/,'$1')
+      }
+      result += '<li class="'+EnvNow+'memo-'+memoId+'"><div class="bbs-avatar"><a href="'+data[i].home+'" target="_blank" rel="noopener noreferrer"><img src="'+data[i].imgsrc+'" alt=""></a><a href="'+memoUrl+'" target="_blank" rel="noopener noreferrer" class="bbs-creator">'+data[i].creator+'</a><span class="bbs-dot">·</span><span class="bbs-date">'+new Date(data[i].updatedTs * 1000).toLocaleString()+'</span>'
 
-      var comSVG = '<span class="bbs-coment-svg"><svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="20" height="24"><path d="M816 808H672c-4.8 0-8 1.6-11.2 4.8l-80 80c-36.8 36.8-97.6 36.8-136 0l-80-80c-3.2-3.2-6.4-4.8-11.2-4.8h-144c-70.4 0-128-57.6-128-128V232c0-70.4 57.6-128 128-128h608c70.4 0 128 57.6 128 128v448C944 750.4 886.4 808 816 808zm0-64c35.2 0 64-28.8 64-64V232c0-35.2-28.8-64-64-64H208c-35.2 0-64 28.8-64 64v448c0 35.2 28.8 64 64 64h144c20.8 0 41.6 8 56 24l80 80c12.8 12.8 32 12.8 44.8 0l80-80c14.4-14.4 35.2-24 56-24H816zM320 408c27.2 0 48 20.8 48 48v32c0 27.2-20.8 48-48 48s-48-20.8-48-48v-32c0-27.2 20.8-48 48-48zm192 0c27.2 0 48 20.8 48 48v32c0 27.2-20.8 48-48 48s-48-20.8-48-48v-32c0-27.2 20.8-48 48-48zm192 0c27.2 0 48 20.8 48 48v32c0 27.2-20.8 48-48 48s-48-20.8-48-48v-32c0-27.2 20.8-48 48-48z" fill="#cccccc"/></svg></span>'
+      var comSVG = '<span class="bbs-coment-svg"><svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="20" height="24"><path d="M816 808H672c-4.8 0-8 1.6-11.2 4.8l-80 80c-36.8 36.8-97.6 36.8-136 0l-80-80c-3.2-3.2-6.4-4.8-11.2-4.8h-144c-70.4 0-128-57.6-128-128V232c0-70.4 57.6-128 128-128h608c70.4 0 128 57.6 128 128v448C944 750.4 886.4 808 816 808zm0-64c35.2 0 64-28.8 64-64V232c0-35.2-28.8-64-64-64H208c-35.2 0-64 28.8-64 64v448c0 35.2 28.8 64 64 64h144c20.8 0 41.6 8 56 24l80 80c12.8 12.8 32 12.8 44.8 0l80-80c14.4-14.4 35.2-24 56-24H816zM320 408c27.2 0 48 20.8 48 48v32c0 27.2-20.8 48-48 48s-48-20.8-48-48v-32c0-27.2 20.8-48 48-48zm192 0c27.2 0 48 20.8 48 48v32c0 27.2-20.8 48-48 48s-48-20.8-48-48v-32c0-27.2 20.8-48 48-48zm192 0c27.2 0 48 20.8 48 48v32c0 27.2-20.8 48-48 48s-48-20.8-48-48v-32c0-27.2 20.8-48 48-48z" /></svg></span>'
 
-      var outSVG = '<span class="bbs-coment-svg"><svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M864 640a32 32 0 0 1 64 0v224.096A63.936 63.936 0 0 1 864.096 928H159.904A63.936 63.936 0 0 1 96 864.096V159.904C96 124.608 124.64 96 159.904 96H384a32 32 0 0 1 0 64H192.064A31.904 31.904 0 0 0 160 192.064v639.872A31.904 31.904 0 0 0 192.064 864h639.872A31.904 31.904 0 0 0 864 831.936V640zm-485.184 52.48a31.84 31.84 0 0 1-45.12-.128 31.808 31.808 0 0 1-.128-45.12L815.04 166.048l-176.128.736a31.392 31.392 0 0 1-31.584-31.744 32.32 32.32 0 0 1 31.84-32l255.232-1.056a31.36 31.36 0 0 1 31.584 31.584L924.928 388.8a32.32 32.32 0 0 1-32 31.84 31.392 31.392 0 0 1-31.712-31.584l.736-179.392L378.816 692.48z" fill="#cccccc"/></svg></span>'
+      var outSVG = '<span class="bbs-coment-svg"><svg class="icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M864 640a32 32 0 0 1 64 0v224.096A63.936 63.936 0 0 1 864.096 928H159.904A63.936 63.936 0 0 1 96 864.096V159.904C96 124.608 124.64 96 159.904 96H384a32 32 0 0 1 0 64H192.064A31.904 31.904 0 0 0 160 192.064v639.872A31.904 31.904 0 0 0 192.064 864h639.872A31.904 31.904 0 0 0 864 831.936V640zm-485.184 52.48a31.84 31.84 0 0 1-45.12-.128 31.808 31.808 0 0 1-.128-45.12L815.04 166.048l-176.128.736a31.392 31.392 0 0 1-31.584-31.744 32.32 32.32 0 0 1 31.84-32l255.232-1.056a31.36 31.36 0 0 1 31.584 31.584L924.928 388.8a32.32 32.32 0 0 1-32 31.84 31.392 31.392 0 0 1-31.712-31.584l.736-179.392L378.816 692.48z"/></svg></span>'
 
       if(comment == '1'){
         if(twiEnv && twiEnv != 'undefined'){
-          result += '<a data-id="'+memoId+'" data-twienv="'+twiEnv+'" data-path="'+memoUrl+'" onclick="loadTwikoo(this)" href="javascript:void(0)" rel="noopener noreferrer">'+comSVG+'</a></div><div class="bbs-content"><div class="bbs-text">'+bbContREG+'</div><div class="item-twikoo twikoo-'+memoId+' d-none"><div id="twikoo-'+memoId+'"></div></div></div></li>'
+          result += '<a data-id="'+memoId+'" data-twienv="'+twiEnv+'" data-path="'+memoUrl+'" onclick="loadTwikoo(this)" onmouseenter="insertTwikoo(this)" href="javascript:void(0)" rel="noopener noreferrer">'+comSVG+'</a></div><div class="bbs-content"><div class="bbs-text">'+bbContREG+'</div><div class="item-comment twikoo-'+memoId+' d-none"><div id="'+EnvNow+'twikoo-'+memoId+'"></div></div></div></li>'
         }else if(artEnv && artEnv != 'undefined'){
-          result += '<a data-id="'+memoId+'" data-artenv="'+artEnv+'" data-artsite="'+artSite+'" data-path="'+memoUrl+'" onclick="loadArtalk(this)" href="javascript:void(0)" rel="noopener noreferrer">'+comSVG+'</a></div><div class="bbs-content"><div class="bbs-text">'+bbContREG+'</div><div class="item-artalk artalk-'+memoId+' d-none"></div></div></li>'
+          result += '<a data-id="'+memoId+'" data-artenv="'+artEnv+'" data-artsite="'+artSite+'" data-path="'+memoUrl+'" onclick="loadArtalk(this)" href="javascript:void(0)" rel="noopener noreferrer">'+comSVG+'</a></div><div class="bbs-content"><div class="bbs-text">'+bbContREG+'</div><div class="item-comment '+EnvNow+'artalk-'+memoId+' d-none"></div></div></li>'
         }else{
-          result += '<a href="'+memoUrl+'" target="_blank" rel="noopener noreferrer">'+outSVG+'</a></div><div class="bbs-content"><div class="bbs-text">'+bbContREG+'</div><div id="artalk-'+memoId+'"></div></div></li>'
+          result += '<a href="'+memoUrl+'" target="_blank" rel="noopener noreferrer">'+outSVG+'</a></div><div class="bbs-content"><div class="bbs-text">'+bbContREG+'</div></div></li>'
         }
       }else{
         result += '</div><div class="bbs-content"><div class="bbs-text">'+bbContREG+'</div></div></li>'
@@ -379,20 +437,26 @@ function updateHTMl(data){
 //前端加载 Twikoo 评论
 function loadTwikoo(e) {
   var memoEnv = e.getAttribute("data-twienv")
+  var EnvNow = memoEnv.replace(/https\:\/\/.*\.(.*)\..*/,'$1')
   var memoPath = e.getAttribute("data-path")
   var memoId = e.getAttribute("data-id")
   var twikooDom = document.querySelector('.twikoo-'+memoId);
   if (twikooDom.classList.contains('d-none')) {
-    document.querySelectorAll('.item-twikoo').forEach((item) => {item.classList.add('d-none');})
+    document.querySelectorAll('.item-comment').forEach((item) => {item.classList.add('d-none');})
     if(!document.getElementById("twikoo")){
       twikooDom.classList.remove('d-none');
+      var domClass = document.getElementsByClassName(EnvNow+'memo-'+memoId)
+      window.scrollTo({
+        top: domClass[0].offsetTop - 30,
+        behavior: "smooth"
+      });
       twikoo.init({
         envId: memoEnv,
-        el: '#twikoo-' + memoId,
+        el: '#'+EnvNow+'twikoo-' + memoId,
         path: memoPath
       });
       setTimeout(function(){
-        document.getElementById("twikoo").id='twikoo-' + memoId;
+        document.getElementById("twikoo").id= EnvNow+'twikoo-' + memoId;
       }, 600)
     }
   }else{
@@ -402,19 +466,25 @@ function loadTwikoo(e) {
 //前端加载 Artalk 评论
 function loadArtalk(e) {
   var memoEnv = e.getAttribute("data-artenv")
+  var EnvNow = memoEnv.replace(/https\:\/\/.*\.(.*)\..*/,'$1')
   var memoSite= e.getAttribute("data-artsite")
   var memoId = e.getAttribute("data-id")
-  var ArtalkDom = document.querySelector('.artalk-'+memoId);
-  var ArtalkDom_ID = document.querySelector('#artalk-'+memoId);
+  var ArtalkDom = document.querySelector('.'+EnvNow+'artalk-'+memoId);
+  var ArtalkDom_ID = document.querySelector('#'+EnvNow+'artalk-'+memoId);
   if(!ArtalkDom_ID){
-    ArtalkDom.insertAdjacentHTML('afterbegin', '<div id="artalk-'+ memoId +'"></div>');
+    ArtalkDom.insertAdjacentHTML('afterbegin', '<div id="'+EnvNow+'artalk-'+ memoId +'"></div>');
   }
   if (ArtalkDom.classList.contains('d-none')) {
-    document.querySelectorAll('.item-artalk').forEach((item) => {item.classList.add('d-none');})
+    document.querySelectorAll('.item-comment').forEach((item) => {item.classList.add('d-none');})
     if(!document.getElementById("artalk")){
       ArtalkDom.classList.remove('d-none');
+      var domClass = document.getElementsByClassName(EnvNow+'memo-'+memoId)
+      window.scrollTo({
+        top: domClass[0].offsetTop - 30,
+        behavior: "smooth"
+      });
       Artalk.init({
-        el: '#artalk-' + memoId,
+        el: '#'+EnvNow+'artalk-' + memoId,
         pageKey: '/m/' + memoId,
         pageTitle: '',
         site: memoSite,
